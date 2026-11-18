@@ -1,0 +1,50 @@
+/*a{
+margin: 10px;
+padding-left: 40px;
+padding right:80px;
+padding-top:2px;
+padding-bottom:2px;
+border:collapse;
+} */
+
+
+a{
+
+	display:inline;
+	/* justify-content:space-evenly; */
+	width:350px;
+}
+#logo{
+	align-items:top-left;
+}
+
+.copyright{
+	text-align: center;
+	background-color: #499A13;
+	padding: 10px;
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* for the content in the collapsable boxes*/
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
