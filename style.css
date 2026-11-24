@@ -6,8 +6,18 @@ padding-top:2px;
 padding-bottom:2px;
 border:collapse;
 } */
+body p{
+	padding:10px;
+}
+p{
+	font-family:"Inter", sans-serif;
+}
 
-
+.col{
+	display:flex;
+	justify-content:center;
+	align-content:center;
+}
 a{
 
 	display:inline;
@@ -23,7 +33,7 @@ a{
 	background-color: #499A13;
 	padding: 10px;
 }
-/* Style the button that is used to open and close the collapsible content */
+/* Styling for collapsable button */
 .collapsible {
   background-color: #eee;
   color: #444;
@@ -31,17 +41,17 @@ a{
   padding: 18px;
   width: 100%;
   border: none;
+  font-family:"PT Sans", sans-serif;
+  font-weight:600;
   text-align: left;
   outline: none;
   font-size: 15px;
 }
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
   background-color: #ccc;
 }
 
-/* for the content in the collapsable boxes*/
+/*What affects inside the button*/
 .content {
   padding: 0 18px;
   display: none;
