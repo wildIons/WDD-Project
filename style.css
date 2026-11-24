@@ -1,11 +1,4 @@
-/*a{
-margin: 10px;
-padding-left: 40px;
-padding right:80px;
-padding-top:2px;
-padding-bottom:2px;
-border:collapse;
-} */
+/*sammy */
 
 
 a{
@@ -23,28 +16,127 @@ a{
 	background-color: #499A13;
 	padding: 10px;
 }
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+/* Thomas Dunne CSS */
+/*fonts used*/
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: #ccc;
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-/* for the content in the collapsable boxes*/
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+  .pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.old-standard-tt-regular {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.old-standard-tt-bold {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.old-standard-tt-regular-italic {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+button{
+	background-color: olivedrab;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	padding: 10px 16px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.header{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.divider{
+	background-color: black;
+	height: 1px;
+}
+.profile{
+	float: left;
+	margin-right:15px;
+	margin-left: 15px;
+	width: 200px;
+	height: 200px;
+
+}
+.quote{
+	font-family: "Old Standard TT", serif;
+	font-weight: 400;
+	font-style: italic;
+	 width: 300px;
+	margin-left: 10px;
+	background-color: grey;
+}
+.Action{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.whyIsItImportant{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.text{
+	font-weight: 400;
+	font-style: italic;
+	font-family: "PT Sans", sans-serif;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.talk{
+	font-weight: 400;
+	font-style: italic;
+	font-family: "PT Sans", sans-serif;
 }
