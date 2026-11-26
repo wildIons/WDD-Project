@@ -12,6 +12,6 @@ function restMode(){
 function nightMode(){
 	document.getElementById('news').style.backgroundColor='black';
 	document.getElementById('text').style.color='white';
-	document.getElementById('text2').style.color='white'
+	document.getElementById('text2').style.color='white';
 
 }
